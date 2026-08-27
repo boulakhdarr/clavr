@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arabic Keyboard Online | لوحة مفاتيح عربية أونلاين</title>
+  <meta name="description" content="لوحة مفاتيح عربية أونلاين للكتابة بالعربية، نسخ النص بسهولة، مسح النص، والتبديل بين Arabic وEnglish مع بحث مباشر في Google.">
+  <meta name="keywords" content="Arabic Keyboard, Arabic Keyboard Online, لوحة مفاتيح عربية أونلاين, لوحة مفاتيح عربية, نسخ النص بسهولة, زر Copy, زر Clear, Arabic English Keyboard">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Arabic Keyboard Online | لوحة مفاتيح عربية أونلاين">
+  <meta property="og:description" content="اكتب بالعربية من أي جهاز، انسخ النص أو ابحث عنه مباشرة في Google.">
+  <meta property="og:type" content="website">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Arabic Keyboard Online",
+    "alternateName": "لوحة مفاتيح عربية أونلاين",
+    "description": "لوحة مفاتيح عربية للكتابة والنسخ والبحث في Google.",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Any",
+    "inLanguage": ["ar", "en"]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="." aria-label="الرئيسية">
+        <span class="brand-mark">ع</span>
+        <span>لوحة <strong>عربي</strong></span>
+      </a>
+      <nav class="site-nav" aria-label="التنقل الرئيسي">
+        <a href="#/blog">المدونة</a>
+        <a href="#/about">عن الموقع</a>
+        <a href="#/contact">اتصل بنا</a>
+      </nav>
+      <span class="status-pill"><span class="status-dot"></span> جاهزة للكتابة</span>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">ARABIC TYPING TOOL</p>
+      <h1 id="page-title">اكتب بالعربية، <span>بكل سهولة.</span></h1>
+      <p class="intro">استخدم لوحة المفاتيح الافتراضية للكتابة ثم ابحث مباشرة في Google.</p>
+    </section>
+
+    <section class="keyboard-panel" aria-label="لوحة الكتابة العربية">
+      <div class="search-box">
+        <label for="search-input">ماذا تريد أن تبحث عنه؟</label>
+        <div class="input-wrap">
+          <input id="search-input" type="search" dir="rtl" autocomplete="off" placeholder="ابدأ بالكتابة هنا..." aria-label="نص البحث">
+          <button id="clear-button" class="clear-button" type="button" title="مسح النص" aria-label="مسح النص">×</button>
+        </div>
+        <div class="search-actions">
+          <span id="character-count">0 حرف</span>
+          <div class="action-group">
+            <button id="copy-button" class="text-button" type="button">نسخ</button>
+            <button id="clear-action" class="text-button" type="button">مسح</button>
+            <button id="search-button" class="search-button" type="button"><span>بحث في Google</span><span class="arrow" aria-hidden="true">←</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="keyboard-heading">
+        <div>
+          <h2>لوحة المفاتيح</h2>
+          <p>اضغط على الحروف لإضافتها إلى البحث</p>
+        </div>
+        <span class="keyboard-hint">العربية</span>
+      </div>
+
+      <div id="keyboard" class="keyboard" role="group" aria-label="الحروف العربية">
+        <div class="key-row">
+          <button class="key" data-key="ض">ض</button><button class="key" data-key="ص">ص</button><button class="key" data-key="ث">ث</button><button class="key" data-key="ق">ق</button><button class="key" data-key="ف">ف</button><button class="key" data-key="غ">غ</button><button class="key" data-key="ع">ع</button><button class="key" data-key="ه">ه</button><button class="key" data-key="خ">خ</button><button class="key" data-key="ح">ح</button><button class="key" data-key="ج">ج</button>
+        </div>
+        <div class="key-row">
+          <button class="key" data-key="ش">ش</button><button class="key" data-key="س">س</button><button class="key" data-key="ي">ي</button><button class="key" data-key="ب">ب</button><button class="key" data-key="ل">ل</button><button class="key" data-key="ا">ا</button><button class="key" data-key="ت">ت</button><button class="key" data-key="ن">ن</button><button class="key" data-key="م">م</button><button class="key" data-key="ك">ك</button>
+        </div>
+        <div class="key-row key-row-last">
+          <button class="key" data-key="ئ">ئ</button><button class="key" data-key="ء">ء</button><button class="key" data-key="ؤ">ؤ</button><button class="key" data-key="ر">ر</button><button class="key" data-key="ى">ى</button><button class="key" data-key="ة">ة</button><button class="key" data-key="و">و</button><button class="key" data-key="ز">ز</button><button class="key" data-key="ظ">ظ</button><button class="key" data-key="ط">ط</button><button class="key" data-key="د">د</button>
+        </div>
+        <div class="utility-row">
+          <button id="backspace-button" class="utility-button backspace" type="button" title="حذف آخر حرف"><span>حذف</span><span aria-hidden="true">⌫</span></button>
+          <button id="space-button" class="utility-button space" type="button" title="إضافة مسافة"><span>مسافة</span></button>
+          <button id="punctuation-button" class="utility-button" type="button" title="إضافة علامة استفهام" data-key="؟">؟</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="content-area" class="content-area" aria-live="polite"></section>
+
+    <footer>لوحة عربي <span>•</span> للكتابة العربية بسرعة ووضوح <span class="footer-links"><a href="#/privacy-policy">الخصوصية</a><a href="#/terms">الشروط</a><a href="#/cookie-policy">ملفات الارتباط</a></span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
